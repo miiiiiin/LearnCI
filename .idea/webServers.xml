@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1040f52b-c865-469c-8932-c8a77be0c262" name="LearnCI" url="http://192.168.1.225">
+        <fileTransfer host="192.168.1.225" port="20024" rootFolder="/var/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="20024" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
