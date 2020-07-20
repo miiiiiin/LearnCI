@@ -39,7 +39,7 @@ class Board extends CI_Controller {
     //목록 불러오기
 
     public function lists() {
-        $data['list'] = $this->board_m->get_list($this->url->segment(3));
+//        $data['list'] = $this->board_m->get_list($this->uri->segment(3));
         $this->load->view('board/list_v', $data);
     }
 }

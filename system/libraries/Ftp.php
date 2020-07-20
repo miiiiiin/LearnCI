@@ -156,7 +156,7 @@ class CI_FTP {
 		{
 			if ($this->debug === TRUE)
 			{
-				$this->_error('ftp_unable_to_connect');
+                $this->_error('ftp_unable_to_connect');
 			}
 
 			return FALSE;
