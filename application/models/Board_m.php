@@ -6,7 +6,7 @@
  * Time: 17:21
  */
 
-class board_m extends CI_Model {
+class Board_m extends CI_Model {
 
     function __construct()
     {
